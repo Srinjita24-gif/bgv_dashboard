@@ -787,7 +787,7 @@ def render_pending(df):
 
     c1, c2, c3, c4 = st.columns(4)
     kpi_card(c1, total_pend,        "Initiated — Awaiting Completion", C_ORANGE)
-    kpi_card(c2, len(not_init_df),  "BGV Not Yet Initiated",           C_PURPLE)
+    kpi_card(c2, len(not_init_df),  "BGV Not Initiated",           C_PURPLE)
     kpi_card(c3, gt30_days,         "Initiated > 1 Month Ago",         C_RED, "needs attention")
     kpi_card(c4, total_pend + len(not_init_df), "Total Action Required", C_AMBER)
 
