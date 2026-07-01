@@ -39,6 +39,16 @@ section[data-testid="stSidebar"] .stButton > button {
     color:white !important; border:none !important; border-radius:8px !important;
     padding:.5rem .8rem !important; font-weight:700 !important; font-size:.8rem !important;
 }
+.stButton > button {
+    background:#1D4ED8 !important;
+    color:white !important;
+    border:none !important;
+    border-radius:8px !important;
+    font-weight:700 !important;
+}
+.stButton > button:hover {
+    background:#1E40AF !important;
+}
 section[data-testid="stSidebar"] .stSelectbox [data-baseweb="select"] > div,
 section[data-testid="stSidebar"] .stTextInput input {
     background:#1E293B !important; color:#E2E8F0 !important; border-color:#334155 !important;
